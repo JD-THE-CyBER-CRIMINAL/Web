@@ -1,0 +1,415 @@
+/* header */
+.header {
+    height: 100px;
+    weidth: 100%;
+    background-color: #000EAF;
+    border-bottom: 3px solid blue;
+}
+
+
+.avatar {
+    height: 100px;
+    weidth: 100px;
+}
+
+
+.header ul{
+    float: right;
+    display: flex;
+    list-style: none;
+    margin-top: 42px;
+    margin-right: 15px;    
+}
+
+
+.header ul li a{
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: blue;
+}
+
+
+.h1{
+    position: absolute;
+    left: 120px;
+    top: 2px;
+    color: white;
+    font-size: 50px;
+}
+
+
+
+/* banner */
+.banner{
+    height: 600px;
+    weidth: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)),url("image/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.banner1 ul{
+    position: absolute;
+    left: 11%;
+    top: 32%;
+    display: flex;
+    list-style: none;
+}
+
+.banner1 ul li a{
+    color: blue;
+    border: 4px solid blue;
+    font-size: 60px;
+    padding: 15px 30px;
+    border-radius: 60px;
+    text-decoration: none;
+}
+
+
+.wlcm{
+    position: absolute;
+    left: 10%;
+    top: 13%;
+    color: blue;
+    font-weight: bold;
+    font-size: 90px;
+}
+
+/* footer */
+.footer{
+    height: 100px;
+    weidth: 100%;
+    color: white;
+    margin-bottom: 0px;   
+    background: #000EAF;
+    text-align: center;
+    line-height: 120px;    
+}
+
+
+
+/* Download page starting */
+.background{
+    height: 810px;
+    width: 100%;
+    background-color: #000EAF;
+}
+
+
+.searchbutton{
+   position: absolute;
+   left: 100px;
+   top: 200px;
+   
+}
+
+.searchbutton input{
+    height: 40px;
+    width: 351px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: blue;
+    border: blue;
+}
+
+.searchbutton button{
+    position: absolute;
+    top: 0px;
+    height: 42px;
+    width: 40px;
+    background: blue;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: blue;
+    border: blue;
+    font-size: 30px;
+}
+
+.searchbutton button:hover{
+    background-color: blue;
+}
+.searchbutton button:active{
+    background-color: red;
+}
+
+.injectorheading{
+    position: absolute;
+    left:50px;
+    top: 370px;
+    font-size: 30px;
+    color: white;
+}
+
+.downloadbutton{
+    position: absolute;
+    top: 500px;
+    left: 45px;
+    background-color: blue;
+    padding: 15px 30px;
+    border-radius: 12px;
+}
+
+
+.downloadbutton a{
+    color: white;
+    font-size:80px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+#info{
+    position: absolute;
+    top: 620px;
+    left: 45;
+}
+
+
+#info ul li{
+    color: white;
+    font-weight: bold;
+    list-style: none;
+    font-size: 25px;
+}
+
+
+
+/* about page starting */
+.aboutheadingbg{
+    height: 500px;
+    width: 100%;
+    background-color: #000EAF;
+}
+
+
+.aboutheadingtext{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 35px 60px
+}
+
+/* mission */
+.missionbg{
+    height: 300px;
+    width: 100%px;
+    
+}
+
+.missiontext{
+    height: 300px;
+    width: 450px;
+    text-align: center;
+    font-size: 20px; 
+    margin-left:20px;
+    border:3px solid white;
+}
+
+.missiontext h1{
+    margin-top: 45px;
+}
+
+.missiontext p{
+    margin-top: 38px;
+}
+
+.missionimage{
+    height: 300px;
+    width: 457px;
+    border: 2px solid white;
+    float: right;
+}
+
+
+/* offer */
+.offerbg{
+    height: 300px;
+    width: 100%;
+    border: 2px solid white;
+}
+
+.offerimage{
+    float: left;
+}
+
+
+.offertext{
+    height: 300px;
+    width: 450px;
+    text-align: center;
+    font-size: 20px;
+    margin-left:20px;
+    border:3px solid white;
+    float: right;
+}
+
+/* Our Commitment to Quality */
+.commitmentbg{
+    height: 300px;
+    width: 100%;
+    border: 2px solid white;
+}
+
+.commitmenttext{
+    height: 300px;
+    width: 450px;
+    float: left;
+    text-align: center;
+    font-size: 20px; 
+    margin-left:20px;
+    border:3px solid white;
+}
+
+
+.commitmentimage{
+    float: right;
+}
+
+
+
+/* community and Suppor */
+.communitybg{
+    height: 300px;
+    width: 100%;
+    border: 2px solid white;
+}
+
+.communityimage{
+    float: left;
+}
+
+
+.communitytext{
+    height: 300px;
+    width: 450px;
+    text-align: center;
+    font-size: 20px;
+    margin-left:20px;
+    border:3px solid white;
+    float: right;
+}
+
+
+
+
+/* Stay Connected */
+.connectedbg{
+    height: 300px;
+    width: 100%;
+    border: 2px solid white;
+}
+
+.connectedtext{
+    height: 300px;
+    width: 450px;
+    float: left;
+    text-align: center;
+    font-size: 20px; 
+    margin-left:20px;
+    border:3px solid white;
+}
+
+.connectedimage{
+    float: right;
+}
+
+.note{
+    font-size: 30px;
+    text-align: center;
+}
+
+/* about page footer */
+.footing{
+    height: 400px;
+    width: 100%;
+    background-color: #000EAF;
+}
+
+
+/* Contact Us */
+
+.contactbg{
+    margin-top: -21.3px;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.20);
+}
+
+.contacttext{
+    height: 300px;
+    width: 360px;
+    position: relative;
+    top: 13%;
+    left: 5%;
+}
+
+.contacttext ul li{
+    list-style: none;
+    
+}
+
+/* form */
+.form{
+    position: absolute;
+    right: 100px;
+    top: 170px;
+    height: 345px;
+    width: 300px;
+    border: px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form p{
+    color: white;
+    height: px;
+    padding: 15px;
+    background: blue;
+    margin-top: -0px;
+    font-weight: bold;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+
+.box input{
+    position: absolute;
+    right: 11px;
+    height: 20px;
+    width: 270px;
+    outline: blue;
+    border-color: blue;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+}
+
+.wehelp{
+    padding: 11px;
+    
+}
+
+.wehelp textarea{
+    height: 60px;
+    width: 270px;
+    outline: blue;
+    border: 2px solid blue;
+    border-color: blue;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+}
+
+.wehelp button{
+    float: center;
+    height: 30px;
+    width: 279px;
+    color: white;
+    border: blue;
+    background-color: green;
+    border-radius: 5px;
+}
+
