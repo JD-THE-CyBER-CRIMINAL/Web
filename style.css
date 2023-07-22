@@ -34,7 +34,6 @@
 
 .login-button{
     position: relative;
-    top: -5px;
     height: 85px;
     width: 644px;
     color: white;
@@ -47,18 +46,4 @@
 
 .login-button:hover{
     background: #0195F7;
-}
-
-.forget{
-    color: #4E659B;
-    font-size: 30px;
-    text-decoration: none;
-}
-
-
-.ac{
-    border: 1px solid black;
-    padding: 50px 50px;
-    margin: auto;
-    font-size: 30px;
 }
