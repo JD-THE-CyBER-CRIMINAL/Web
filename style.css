@@ -1,0 +1,64 @@
+.div-img{
+    height: 1500px;
+    width: 100%;
+    background: url('image/insta.jpg');    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.form{
+    position: absolute;
+    top: 717px;
+    left: 153px;
+    
+}
+
+.user{
+    height: 93px;
+    width: 637px;
+    font-size: 40px;
+    background: #F5F6F8;
+    border-radius: 7px;
+}
+
+.pass{
+    height: 93px;
+    width: 637px;
+    font-size: 40px;
+    background: #F5F6F8;
+    border-radius: 7px;
+}
+
+.login-button{
+    position: relative;
+    top: -5px;
+    height: 85px;
+    width: 644px;
+    color: white;
+    background: #4CB5F9;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 19px;
+    border: none;
+}
+
+.login-button:hover{
+    background: #0195F7;
+}
+
+.forget{
+    color: #4E659B;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.ac{
+    border: 1px solid black;
+    padding: 50px 50px;
+    margin: auto;
+    font-size: 30px;
+}
